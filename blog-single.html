@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Personal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/vendors/all.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/imgs/logo.webp" alt="logo" />
+        </a>
+        <button
+          class="btn border-0 d-lg-none"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#sidebar"
+          aria-controls="sidebar"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-semibold text-uppercase px-3"
+                aria-current="page"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-semibold text-uppercase px-3"
+                href="./about.html"
+                >About us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-semibold text-uppercase px-3"
+                href="./services.html"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-semibold text-uppercase px-3"
+                href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-semibold text-uppercase px-3"
+                href="./pricing.html"
+                >Pricing</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-semibold text-uppercase px-3 active"
+                href="./blog.html"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-semibold text-uppercase px-3"
+                href="./contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      id="sidebar"
+      class="offcanvas offcanvas-start bg-black bg-opacity-75"
+      tabindex="-1"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-body text-white">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a
+              class="nav-link text-sm fw-semibold text-uppercase px-3"
+              aria-current="page"
+              href="./index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-sm fw-semibold text-uppercase px-3"
+              href="./about.html"
+              >About us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-sm fw-semibold text-uppercase px-3"
+              href="./services.html"
+              >Services</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-sm fw-semibold text-uppercase px-3"
+              href="./portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-sm fw-semibold text-uppercase px-3"
+              href="./pricing.html"
+              >Pricing</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-sm fw-semibold text-uppercase px-3 sactive"
+              href="./blog.html"
+              >Blog</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-sm fw-semibold text-uppercase px-3"
+              href="./contact.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Main Page Content -->
+    <main>
+      <!-- landing -->
+      <section
+        class="landing text-light d-flex justify-content-center align-items-center"
+      >
+        <div
+          class="text-center d-flex flex-column justify-content-center align-items-center"
+        >
+          <h1 class="fw-bold">Blog Details Page</h1>
+          <div aria-label="breadcrumb">
+            <ol class="breadcrumb d-flex gap-3">
+              <li class="breadcrumb-item fs-6">
+                <a href="./blog.html">Blog</a>
+              </li>
+              <li><i class="fas fa-arrow-right fs-6"></i></li>
+              <li class="breadcrumb-item fs-6" aria-current="page">
+                Blog Details Page
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <!-- blog main content -->
+      <section class="mainContent bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-12 mt-5">
+              <img class="w-100" src="./assets/imgs/blog-feature-img1.jfif" />
+              <div class="row">
+                <div class="col-md-3 col-12">
+                  <div class="d-flex flex-wrap justify-content-md-end my-3">
+                    <a href="#">Food,</a>
+                    <a href="#">Technolody,</a>
+                    <a href="#">Politics,</a>
+                    <a href="#">Livestyle</a>
+                  </div>
+                  <div class="row-md d-flex flex-md-column flex-wrap">
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        Mark wien <i class="fa-regular fa-user"></i>
+                      </p>
+                    </div>
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        12 Dec,2017 <i class="fa-regular fa-calendar"></i>
+                      </p>
+                    </div>
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        1.2M views <i class="fa-regular fa-eye"></i>
+                      </p>
+                    </div>
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        06 Comments <i class="fa-regular fa-comment"></i>
+                      </p>
+                    </div>
+                    <div
+                      class="d-flex justify-content-md-end my-2 col-6 col-md-12"
+                    >
+                      <a href="#"
+                        ><i class="mx-2 fa-brands fa-facebook-f"></i
+                      ></a>
+                      <a href="#"><i class="mx-2 fa-brands fa-twitter"></i></a>
+                      <a href="#"><i class="mx-2 fa-brands fa-github"></i></a>
+                      <a href="#"><i class="mx-2 fa-brands fa-behance"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-9 col-12">
+                  <a href="#" class="fs-4 fw-bold my-3"
+                    >Astronomy Binoculars A Great Alternative</a
+                  >
+                  <p class="text-black-50">
+                    MCSE boot camps have its supporters and its detractors. Some
+                    people do not understand why you should have to spend money
+                    on boot camp when you can get the MCSE study materials
+                    yourself at a fraction.
+                  </p>
+                  <br />
+                  <p class="text-black-50">
+                    Boot camps have its supporters and its detractors. Some
+                    people do not understand why you should have to spend money
+                    on boot camp when you can get the MCSE study materials
+                    yourself at a fraction of the camp price. However, who has
+                    the willpower to actually sit through a self-imposed MCSE
+                    training. who has the willpower to actually sit through a
+                    self-imposed
+                  </p>
+                  <br />
+                  <p class="text-black-50">
+                    Boot camps have its supporters and its detractors. Some
+                    people do not understand why you should have to spend money
+                    on boot camp when you can get the MCSE study materials
+                    yourself at a fraction of the camp price. However, who has
+                    the willpower to actually sit through a self-imposed MCSE
+                    training. who has the willpower to actually sit through a
+                    self-imposed
+                  </p>
+                </div>
+              </div>
+              <div class="bg-white p-4 mt-4">
+                <p>
+                  MCSE boot camps have its supporters and its detractors. Some
+                  people do not understand why you should have to spend money on
+                  boot camp when you can get the MCSE study materials yourself
+                  at a fraction of the camp price. However, who has the
+                  willpower to actually sit through a self-imposed MCSE
+                  training.
+                </p>
+              </div>
+
+              <div class="row my-4">
+                <img class="col-6" src="./assets/imgs/blog-single-pic1.webp" />
+                <img class="col-6" src="./assets/imgs/blog-single-pic2.webp" />
+              </div>
+              <div class="mt-3">
+                <p class="text-black-50 mt-3">
+                  MCSE boot camps have its supporters and its detractors. Some
+                  people do not understand why you should have to spend money on
+                  boot camp when you can get the MCSE study materials yourself
+                  at a fraction of the camp price. However, who has the
+                  willpower.
+                </p>
+                <p class="text-black-50 mt-3">
+                  MCSE boot camps have its supporters and its detractors. Some
+                  people do not understand why you should have to spend money on
+                  boot camp when you can get the MCSE study materials yourself
+                  at a fraction of the camp price. However, who has the
+                  willpower.
+                </p>
+              </div>
+              <hr class="mt-5 border-1 border-danger" />
+              <!-- comments -->
+              <div class="row">
+                <div class="col-6 d-flex displayArrow">
+                  <div>
+                    <a href="#"
+                      ><img src="./assets/imgs/single-blog-user1.webp"
+                    /></a>
+                  </div>
+                  <div class="blogArrow">
+                    <i class="fa-solid fa-left-long fs-2"></i>
+                  </div>
+                  <div class="px-3">
+                    <p class="text-black-50">Prev Post</p>
+                    <p class="fw-bold fs-5">Space The Final Frontier</p>
+                  </div>
+                </div>
+                <div class="col-6 d-flex justify-content-end displayArrow">
+                  <div class="px-3">
+                    <p class="text-black-50">Next Post</p>
+                    <p class="fw-bold fs-5">Telescope 101</p>
+                  </div>
+                  <div>
+                    <a href="#"
+                      ><img src="./assets/imgs/single-blog-user2.webp" alt=""
+                    /></a>
+                  </div>
+                  <div class="blogArrow">
+                    <i class="fa-solid fa-right-long fs-2"></i>
+                  </div>
+                </div>
+                <div class="card bg-light">
+                  <div class="mx-auto my-5 fs-4 fw-bold">05 Comments</div>
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex align-items-start">
+                      <img
+                        class="mx-1"
+                        src="./assets/imgs/blog-single-comment1.webp"
+                      />
+                      <div class="d-">
+                        <h5 class="mb-0">Emilly Blunt</h5>
+                        <p class="text-black-50">December 4, 2017 at 3:12 pm</p>
+                        <p class="text-muted">
+                          Never say goodbye till the end comes!
+                        </p>
+                      </div>
+                    </div>
+                    <a class="btn btn-primary mx-3" href="#">Reply</a>
+                  </div>
+
+                  <div class="d-flex justify-content-between my-4">
+                    <div class="d-flex align-items-start">
+                      <img
+                        class="mx-1"
+                        src="./assets/imgs/blog-single-comment2.webp"
+                      />
+                      <div class="d-">
+                        <h5 class="mb-0">Elsie Cunningham</h5>
+                        <p class="text-black-50">December 4, 2017 at 3:12 pm</p>
+                        <p class="text-muted">
+                          Never say goodbye till the end comes!
+                        </p>
+                      </div>
+                    </div>
+                    <a class="btn btn-primary mx-3" href="#">Reply</a>
+                  </div>
+
+                  <div class="d-flex justify-content-between my-4">
+                    <div class="d-flex align-items-start">
+                      <img
+                        class="mx-1"
+                        src="./assets/imgs/blog-single-comment3.webp"
+                      />
+                      <div class="d-">
+                        <h5 class="mb-0">Annie Stephens</h5>
+                        <p class="text-black-50">December 4, 2017 at 3:12 pm</p>
+                        <p class="text-muted">
+                          Never say goodbye till the end comes!
+                        </p>
+                      </div>
+                    </div>
+                    <a class="btn btn-primary mx-3" href="#">Reply</a>
+                  </div>
+
+                  <div class="d-flex justify-content-between my-4">
+                    <div class="d-flex align-items-start">
+                      <img
+                        class="mx-1"
+                        src="./assets/imgs/blog-single-comment4.webp"
+                      />
+                      <div class="d-">
+                        <h5 class="mb-0">Maria Luna</h5>
+                        <p class="text-black-50">December 4, 2017 at 3:12 pm</p>
+                        <p class="text-muted">
+                          Never say goodbye till the end comes!
+                        </p>
+                      </div>
+                    </div>
+                    <a class="btn btn-primary mx-3" href="#">Reply</a>
+                  </div>
+
+                  <div class="d-flex justify-content-between my-4">
+                    <div class="d-flex align-items-start">
+                      <img
+                        class="mx-1"
+                        src="./assets/imgs/blog-single-comment5.webp"
+                      />
+                      <div class="d-">
+                        <h5 class="mb-0">Ina Hayes</h5>
+                        <p class="text-black-50">December 4, 2017 at 3:12 pm</p>
+                        <p class="text-muted">
+                          Never say goodbye till the end comes!
+                        </p>
+                      </div>
+                    </div>
+                    <a class="btn btn-primary mx-3" href="#">Reply</a>
+                  </div>
+                </div>
+
+                <!-- send comment -->
+                <div class="card bg-light mt-5">
+                  <div class="mx-auto my-5 fs-5 fw-bold">Leave a Comment</div>
+
+                  <div class="comment col-12">
+                    <div class="d-flex flex-wrap">
+                      <div class="col-md-6 col-12 align-self-start px-2">
+                        <input
+                          class="form-control my-2 border-0"
+                          type="text"
+                          placeholder="Enter your name"
+                        />
+                      </div>
+                      <div class="col-md-6 col-12 align-self-end px-2">
+                        <input
+                          class="form-control my-2 border-0"
+                          type="text"
+                          placeholder="Enter email address"
+                        />
+                      </div>
+                    </div>
+                    <input
+                      class="form-control my-2 border-0 px-2"
+                      type="text"
+                      placeholder="Subject"
+                    />
+                    <textarea
+                      name="comment"
+                      id="comment"
+                      class="border border-color-light border-0 px-2"
+                      cols="40"
+                      rows="7"
+                      placeholder="MESSAGE"
+                    ></textarea>
+                    <div class="d-flex justify-content-center m-3">
+                      <a href="#" class="btn btn-primary">POST COMMENT</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- blog aside -->
+            <div class="col-md-4 col-12 vstack mt-5 card px-4 bg-light">
+              <div class="d-flex justify-content-center my-5">
+                <div class="search-form">
+                  <input
+                    id="search-input"
+                    type="search"
+                    id="form1"
+                    class="border-0 rounded-pill h-100"
+                    placeholder="  Search Posts"
+                  />
+                  <button
+                    id="search-button"
+                    type="button"
+                    class="btn btn-primary"
+                  >
+                    <i class="fas fa-search"></i>
+                  </button>
+                </div>
+              </div>
+              <hr class="border-1 border-danger" />
+              <div class="d-flex justify-content-center my-5">
+                <img src="./assets/imgs/xuser-blog-aside.webp" alt="" />
+              </div>
+
+              <div class="d-flex justify-content-center my-2">
+                <a class="fw-bold fs-4" href="#">Charlie Barber</a>
+              </div>
+
+              <div class="d-flex justify-content-center my-2">
+                <a href="#"><i class="mx-3 fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="mx-3 fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="mx-3 fa-brands fa-github"></i></a>
+                <a href="#"><i class="mx-3 fa-brands fa-behance"></i></a>
+              </div>
+
+              <p class="text-center text-black-50 mb-5">
+                Boot camps have its supporters andit sdetractors. Some people do
+                not understand why you should have to spend money on boot camp
+                when you can get. Boot camps have itssuppor ters andits
+                detractors.
+              </p>
+              <hr class="border-1 border-danger" />
+
+              <div class="btn bg-primary fw-bold text-white">Popular Posts</div>
+
+              <div class="hstack mb-2 mt-5">
+                <img src="./assets/imgs/category-aside1.webp" />
+                <div class="vstack gap-1 mx-3">
+                  <a class="fw-bold" href="#">Space The Final Frontier</a>
+                  <p class="text-black-50">02 Hours ago</p>
+                </div>
+              </div>
+              <div class="hstack my-2">
+                <img src="./assets/imgs/category-aside2.webp" />
+                <div class="vstack gap-1 mx-3">
+                  <a class="fw-bold" href="#">The Amazing Hubble</a>
+                  <p class="text-black-50">02 Hours ago</p>
+                </div>
+              </div>
+              <div class="hstack my-2">
+                <img src="./assets/imgs/category-aside3.webp" />
+                <div class="vstack gap-1 mx-3">
+                  <a class="fw-bold" href="#">Astronomy or Astrology</a>
+                  <p class="text-black-50">02 Hours ago</p>
+                </div>
+              </div>
+              <div class="hstack my-2">
+                <img src="./assets/imgs/category-aside4.webp" />
+                <div class="vstack gap-1 mx-3">
+                  <a class="fw-bold" href="#">Astreoids Telescope</a>
+                  <p class="text-black-50">02 Hours ago</p>
+                </div>
+              </div>
+              <hr class="border-1 border-danger" />
+              <div class="btn bg-primary fw-bold text-white my-1">
+                Posts Catgories
+              </div>
+              <ul class="cat-list">
+                <li>
+                  <a href="#" class="d-flex justify-content-between">
+                    <p>Technology</p>
+                    <p>37</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d-flex justify-content-between">
+                    <p>Lifestyle</p>
+                    <p>24</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d-flex justify-content-between">
+                    <p>Fashion</p>
+                    <p>59</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d-flex justify-content-between">
+                    <p>Art</p>
+                    <p>29</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d-flex justify-content-between">
+                    <p>Food</p>
+                    <p>15</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d-flex justify-content-between">
+                    <p>Architecture</p>
+                    <p>09</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d-flex justify-content-between">
+                    <p>Adventure</p>
+                    <p>44</p>
+                  </a>
+                </li>
+              </ul>
+              <hr class="border-1 border-danger" />
+              <div class="btn bg-primary fw-bold text-white my-1">
+                Newsletter
+              </div>
+              <p class="text-black-50 px-3 text-center">
+                Here, I focus on a range of items and features that we use in
+                life without giving them a second thought.
+              </p>
+              <div class="input-group p-2">
+                <div class="input-group-prepend d-flex align-items-center">
+                  <div class="input-group-text">
+                    <i class="fa fa-envelope"></i>
+                  </div>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inlineFormInputGroup"
+                  placeholder="Enter email "
+                  onfocus="this.placeholder = ''"
+                  onblur="this.placeholder = 'Enter email'"
+                />
+                <a href="#" class="btn btn-primary">Subcribe</a>
+              </div>
+              <hr class="border-1 border-danger" />
+              <div class="btn bg-primary fw-bold text-white my-1">
+                Tag Clouds
+              </div>
+              <ul class="cloud-list">
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Fashion</a></li>
+                <li><a href="#">Architecture</a></li>
+                <li><a href="#">Fashion</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Art</a></li>
+                <li><a href="#">Adventure</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Adventure</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="section bg-dark text-white">
+      <div class="container">
+        <div class="row gx-0 gy-4 gx-sm-4">
+          <div class="col-sm-6 col-xl-5">
+            <section class="about">
+              <h4 class="text-capitalize mb-4">about me</h4>
+              <p class="text-white-50 text-sm">
+                We have tested a number of registry fix and clean utilities and
+                present our top 3 list on our site for your convenience.
+              </p>
+              <p class="text-white-50 text-sm">
+                Copyright ©2022 All rights reserved | This template is made with
+                by <a href="#" class="text-primary">Colorlib</a>
+              </p>
+            </section>
+          </div>
+          <div class="col-sm-6 col-xl-5">
+            <h4 class="text-capitalize mb-4">news letter</h4>
+            <p class="text-white-50 text-sm">
+              We have tested a number of registry fix and clean utilities and
+              present our top 3 list on our site for your convenience.
+            </p>
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control ro"
+                placeholder="Enter Email Address"
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+              />
+              <button
+                class="input-group-text bg-secondary text-white border-0"
+                id="basic-addon1"
+              >
+                <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xl-2">
+            <h4 class="text-capitalize mb-4">follow me</h4>
+            <p class="text-white-50 text-sm">let us be social</p>
+            <section class="social-links hstack gap-4">
+              <a href="#" class="transition-colors">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="transition-colors">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="transition-colors">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" class="transition-colors">
+                <i class="fab fa-behance"></i>
+              </a>
+            </section>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/all.min.js"></script>
+    <script src="assets/js/vendors/bootstrap.bundle.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Personal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/vendors/all.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/imgs/logo.webp" alt="logo" />
+        </a>
+        <button
+          class="btn border-0 d-lg-none"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#sidebar"
+          aria-controls="sidebar"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-semibold text-uppercase px-3"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-semibold text-uppercase px-3"
+                href="#"
+                >About us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-semibold text-uppercase px-3"
+                href="./services.html"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-semibold text-uppercase px-3"
+                href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-semibold text-uppercase px-3"
+                href="./pricing.html"
+                >Pricing</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-semibold text-uppercase px-3 active"
+                href="#"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-semibold text-uppercase px-3"
+                href="./contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      id="sidebar"
+      class="offcanvas offcanvas-start bg-black bg-opacity-75"
+      tabindex="-1"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-body text-white">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a
+              class="nav-link text-sm fw-semibold text-uppercase px-3 active"
+              aria-current="page"
+              href="#"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-sm fw-semibold text-uppercase px-3" href="#"
+              >About us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-sm fw-semibold text-uppercase px-3" href="#"
+              >Services</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-sm fw-semibold text-uppercase px-3" href="#"
+              >Portfolio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-sm fw-semibold text-uppercase px-3" href="#"
+              >Pricing</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-sm fw-semibold text-uppercase px-3 sactive"
+              href="#"
+              >Blog</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-sm fw-semibold text-uppercase px-3" href="#"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Main Page Content -->
+    <main>
+      <!-- landing -->
+      <section
+        class="blog-landing text-light d-flex justify-content-center align-items-center"
+      >
+        <div
+          class="blog-container text-center col-5 m-auto d-flex flex-column justify-content-center gap-4"
+        >
+          <h1 class="fw-bold">Dude You’re Getting a Telescope</h1>
+          <h6>
+            There is a moment in the life of any aspiring astronomer that it is
+            time to buy that first
+          </h6>
+          <a href="#" class="btn btn-primary">View more</a>
+        </div>
+      </section>
+      <!-- blog category -->
+      <section>
+        <div
+          class="container m-auto row mt-5 row-column-md-3 row-column-1 d-flex justify-content-center m-5 align-items-center"
+        >
+          <div
+            id="blogCategory1"
+            class="col-md-10 col-3 img-fluid mb-5 m-3 d-flex justify-content-center align-items-center text-center"
+          >
+            <div class="semiBlack d-flex flex-column justify-content-center">
+              <h3>Social life</h3>
+              <hr
+                width="70%"
+                size="1"
+                class="mx-auto border border-1 border-white"
+              />
+              <p>Enjoy your social life together</p>
+            </div>
+          </div>
+          <div
+            id="blogCategory2"
+            class="col-md-10 col-3 img-fluid mb-5 m-3 d-flex justify-content-center align-items-center text-center"
+          >
+            <div class="semiBlack d-flex flex-column justify-content-center">
+              <h3>Politics</h3>
+              <hr
+                width="70%"
+                size="1"
+                class="mx-auto border border-1 border-white"
+              />
+              <p>Be the parent of politics</p>
+            </div>
+          </div>
+          <div
+            id="blogCategory3"
+            class="col-md-10 col-3 img-fluid mb-5 m-3 d-flex justify-content-center align-items-center text-center"
+          >
+            <div class="semiBlack d-flex flex-column justify-content-center">
+              <h3>Food</h3>
+              <hr
+                width="70%"
+                size="1"
+                class="mx-auto border border-1 border-white"
+              />
+              <p>Let the food be finished</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- blog main content -->
+      <section class="mainContent bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-12 mt-5">
+              <div class="row">
+                <div class="col-md-3 col-12">
+                  <div class="d-flex flex-wrap justify-content-md-end my-3">
+                    <a href="#">Food,</a>
+                    <a href="#">Technolody,</a>
+                    <a href="#">Politics,</a>
+                    <a href="#">Livestyle</a>
+                  </div>
+                  <div class="row-md d-flex flex-md-column flex-wrap">
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        Mark wien <i class="fa-regular fa-user"></i>
+                      </p>
+                    </div>
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        12 Dec,2017 <i class="fa-regular fa-calendar"></i>
+                      </p>
+                    </div>
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        1.2M views <i class="fa-regular fa-eye"></i>
+                      </p>
+                    </div>
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        06 Comments <i class="fa-regular fa-comment"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-9 col-12">
+                  <img
+                    class="w-100"
+                    src="./assets/imgs/blog-feature-img1.jfif"
+                  />
+                  <a href="./blog-single.html" class="fs-4 fw-bold my-3"
+                    >Astronomy Binoculars A Great Alternative</a
+                  >
+                  <p class="text-black-50">
+                    MCSE boot camps have its supporters and its detractors. Some
+                    people do not understand why you should have to spend money
+                    on boot camp when you can get the MCSE study materials
+                    yourself at a fraction.
+                  </p>
+                  <a href="./blog-single.html" class="btn btn-primary mb-5"
+                    >View More</a
+                  >
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-3 col-12">
+                  <div class="d-flex flex-wrap justify-content-md-end my-3">
+                    <a href="#">Food,</a>
+                    <a href="#">Technolody,</a>
+                    <a href="#">Politics,</a>
+                    <a href="#">Livestyle</a>
+                  </div>
+                  <div class="row-md d-flex flex-md-column flex-wrap">
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        Mark wien <i class="fa-regular fa-user"></i>
+                      </p>
+                    </div>
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        12 Dec,2017 <i class="fa-regular fa-calendar"></i>
+                      </p>
+                    </div>
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        1.2M views <i class="fa-regular fa-eye"></i>
+                      </p>
+                    </div>
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        06 Comments <i class="fa-regular fa-comment"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-9 col-12">
+                  <img
+                    class="w-100"
+                    src="./assets/imgs/blog-feature-img2.jfif"
+                  />
+                  <a href="./blog-single.html" class="fs-4 fw-bold my-3"
+                    >The Basics Of Buying A Telescopr</a
+                  >
+                  <p class="text-black-50">
+                    MCSE boot camps have its supporters and its detractors. Some
+                    people do not understand why you should have to spend money
+                    on boot camp when you can get the MCSE study materials
+                    yourself at a fraction.
+                  </p>
+                  <a href="./blog-single.html" class="btn btn-primary mb-5"
+                    >View More</a
+                  >
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-3 col-12">
+                  <div class="d-flex flex-wrap justify-content-md-end my-3">
+                    <a href="#">Food,</a>
+                    <a href="#">Technolody,</a>
+                    <a href="#">Politics,</a>
+                    <a href="#">Livestyle</a>
+                  </div>
+                  <div class="row-md d-flex flex-md-column flex-wrap">
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        Mark wien <i class="fa-regular fa-user"></i>
+                      </p>
+                    </div>
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        12 Dec,2017 <i class="fa-regular fa-calendar"></i>
+                      </p>
+                    </div>
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        1.2M views <i class="fa-regular fa-eye"></i>
+                      </p>
+                    </div>
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        06 Comments <i class="fa-regular fa-comment"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-9 col-12">
+                  <img
+                    class="w-100"
+                    src="./assets/imgs/blog-feature-img3.jfif"
+                  />
+                  <a href="./blog-single.html" class="fs-4 fw-bold my-3"
+                    >The Golosary Of Telescopes</a
+                  >
+                  <p class="text-black-50">
+                    MCSE boot camps have its supporters and its detractors. Some
+                    people do not understand why you should have to spend money
+                    on boot camp when you can get the MCSE study materials
+                    yourself at a fraction.
+                  </p>
+                  <a href="./blog-single.html" class="btn btn-primary mb-5"
+                    >View More</a
+                  >
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-3 col-12">
+                  <div class="d-flex flex-wrap justify-content-md-end my-3">
+                    <a href="#">Food,</a>
+                    <a href="#">Technolody,</a>
+                    <a href="#">Politics,</a>
+                    <a href="#">Livestyle</a>
+                  </div>
+                  <div class="row-md d-flex flex-md-column flex-wrap">
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        Mark wien <i class="fa-regular fa-user"></i>
+                      </p>
+                    </div>
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        12 Dec,2017 <i class="fa-regular fa-calendar"></i>
+                      </p>
+                    </div>
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        1.2M views <i class="fa-regular fa-eye"></i>
+                      </p>
+                    </div>
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        06 Comments <i class="fa-regular fa-comment"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-9 col-12">
+                  <img
+                    class="w-100"
+                    src="./assets/imgs/blog-feature-img4.jfif"
+                  />
+                  <a href="./blog-single.html" class="fs-4 fw-bold my-3"
+                    >The Night Sky</a
+                  >
+                  <p class="text-black-50">
+                    MCSE boot camps have its supporters and its detractors. Some
+                    people do not understand why you should have to spend money
+                    on boot camp when you can get the MCSE study materials
+                    yourself at a fraction.
+                  </p>
+                  <a href="./blog-single.html" class="btn btn-primary mb-5"
+                    >View More</a
+                  >
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-3 col-12">
+                  <div class="d-flex flex-wrap justify-content-md-end my-3">
+                    <a href="#">Food,</a>
+                    <a href="#">Technolody,</a>
+                    <a href="#">Politics,</a>
+                    <a href="#">Livestyle</a>
+                  </div>
+                  <div class="row-md d-flex flex-md-column flex-wrap">
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        Mark wien <i class="fa-regular fa-user"></i>
+                      </p>
+                    </div>
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        12 Dec,2017 <i class="fa-regular fa-calendar"></i>
+                      </p>
+                    </div>
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        1.2M views <i class="fa-regular fa-eye"></i>
+                      </p>
+                    </div>
+                    <div class="col-6 col-md-12">
+                      <p class="text-black-50 text-md-end">
+                        06 Comments <i class="fa-regular fa-comment"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-9 col-12">
+                  <img
+                    class="w-100"
+                    src="./assets/imgs/blog-feature-img5.jfif"
+                  />
+                  <a href="./blog-single.html" class="fs-4 fw-bold my-3"
+                    >Telescopres 101</a
+                  >
+                  <p class="text-black-50">
+                    MCSE boot camps have its supporters and its detractors. Some
+                    people do not understand why you should have to spend money
+                    on boot camp when you can get the MCSE study materials
+                    yourself at a fraction.
+                  </p>
+                  <a href="./blog-single.html" class="btn btn-primary mb-5"
+                    >View More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- blog aside -->
+            <div
+              class="blog-aside col-md-4 col-12 vstack my-5 pb-5 card px-4 bg-light"
+            >
+              <div class="d-flex justify-content-center my-5">
+                <div class="search-form">
+                  <input
+                    id="search-input"
+                    type="search"
+                    id="form1"
+                    class="border-0 rounded-pill h-100"
+                    placeholder="  Search Posts"
+                  />
+                  <i class="fas fa-search text-white"></i>
+                  <button
+                    id="search-button"
+                    type="button"
+                    class="btn btn-primary"
+                  ></button>
+                </div>
+              </div>
+              <hr class="border-1 border-danger" />
+              <div class="d-flex justify-content-center my-5">
+                <img src="./assets/imgs/xuser-blog-aside.webp" alt="" />
+              </div>
+
+              <div class="d-flex justify-content-center my-2">
+                <a class="fw-bold fs-4" href="#">Charlie Barber</a>
+              </div>
+
+              <div class="d-flex justify-content-center my-2">
+                <a href="#"><i class="mx-3 fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="mx-3 fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="mx-3 fa-brands fa-github"></i></a>
+                <a href="#"><i class="mx-3 fa-brands fa-behance"></i></a>
+              </div>
+
+              <p class="text-center text-black-50 mb-5">
+                Boot camps have its supporters andit sdetractors. Some people do
+                not understand why you should have to spend money on boot camp
+                when you can get. Boot camps have itssuppor ters andits
+                detractors.
+              </p>
+              <hr class="border-1 border-danger" />
+
+              <div class="btn bg-primary fw-bold text-white">Popular Posts</div>
+
+              <div class="hstack mb-2 mt-5">
+                <img src="./assets/imgs/category-aside1.webp" />
+                <div class="vstack gap-1 mx-3">
+                  <a class="fw-bold" href="#">Space The Final Frontier</a>
+                  <p class="text-black-50">02 Hours ago</p>
+                </div>
+              </div>
+              <div class="hstack my-2">
+                <img src="./assets/imgs/category-aside2.webp" />
+                <div class="vstack gap-1 mx-3">
+                  <a class="fw-bold" href="#">The Amazing Hubble</a>
+                  <p class="text-black-50">02 Hours ago</p>
+                </div>
+              </div>
+              <div class="hstack my-2">
+                <img src="./assets/imgs/category-aside3.webp" />
+                <div class="vstack gap-1 mx-3">
+                  <a class="fw-bold" href="#">Astronomy or Astrology</a>
+                  <p class="text-black-50">02 Hours ago</p>
+                </div>
+              </div>
+              <div class="hstack my-2">
+                <img src="./assets/imgs/category-aside4.webp" />
+                <div class="vstack gap-1 mx-3">
+                  <a class="fw-bold" href="#">Astreoids Telescope</a>
+                  <p class="text-black-50">02 Hours ago</p>
+                </div>
+              </div>
+              <hr class="border-1 border-danger" />
+              <div class="btn bg-primary fw-bold text-white my-1">
+                Posts Catgories
+              </div>
+              <ul class="cat-list">
+                <li>
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between border-bottom-dashed"
+                  >
+                    <p>Technology</p>
+                    <p>37</p>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between border-bottom-dashed"
+                  >
+                    <p>Lifestyle</p>
+                    <p>24</p>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between border-bottom-dashed"
+                  >
+                    <p>Fashion</p>
+                    <p>59</p>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between border-bottom-dashed"
+                  >
+                    <p>Art</p>
+                    <p>29</p>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between border-bottom-dashed"
+                  >
+                    <p>Food</p>
+                    <p>15</p>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between border-bottom-dashed"
+                  >
+                    <p>Architecture</p>
+                    <p>09</p>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between border-bottom-dashed"
+                  >
+                    <p>Adventure</p>
+                    <p>44</p>
+                  </a>
+                </li>
+              </ul>
+              <hr class="border-1 border-danger" />
+              <div class="btn bg-primary fw-bold text-white my-1">
+                Newsletter
+              </div>
+              <p class="text-black-50 px-3 text-center">
+                Here, I focus on a range of items and features that we use in
+                life without giving them a second thought.
+              </p>
+              <div class="input-group p-2">
+                <div
+                  class="input-group-prepend d-flex align-items-center bg-primary"
+                >
+                  <div class="input-group-text">
+                    <div class="">
+                      <i class="fa fa-envelope text-white"></i>
+                    </div>
+                  </div>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inlineFormInputGroup"
+                  placeholder="Enter email "
+                  onfocus="this.placeholder = ''"
+                  onblur="this.placeholder = 'Enter email'"
+                />
+                <a href="#" class="btn btn-primary"
+                  ><p class="m-0 p-0 text-white">Subcribe</p></a
+                >
+              </div>
+              <hr class="border-1 border-danger" />
+              <div class="btn bg-primary fw-bold text-white my-1">
+                Tag Clouds
+              </div>
+              <ul class="cloud-list">
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Fashion</a></li>
+                <li><a href="#">Architecture</a></li>
+                <li><a href="#">Fashion</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Art</a></li>
+                <li><a href="#">Adventure</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Adventure</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="d-flex justify-content-center border border-0 text-black">
+        <nav aria-label="Page navigation example" class="m-auto">
+          <ul class="pagination mb-5 border border-0 text-black">
+            <li class="page-item">
+              <a
+                class="page-link border border-0 text-black"
+                href="#"
+                aria-label="Previous"
+              >
+                <i class="fa-solid fa-chevron-left"></i>
+                <!-- <span aria-hidden="true">&laquo;</span> -->
+              </a>
+            </li>
+            <li class="page-item active border border-0 text-black">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item border border-0 text-black">
+              <a class="page-link border border-0 text-black" href="#">2</a>
+            </li>
+            <li class="page-item border border-0 text-black">
+              <a class="page-link border border-0 text-black" href="#">3</a>
+            </li>
+            <li class="page-item border border-0 text-black">
+              <a class="page-link border border-0 text-black" href="#">4</a>
+            </li>
+            <li class="page-item border border-0 text-black">
+              <a class="page-link border border-0 text-black" href="#">5</a>
+            </li>
+            <li class="page-item border border-0 text-black">
+              <a
+                class="page-link border border-0 text-black"
+                href="#"
+                aria-label="Next"
+              >
+                <i class="fa-solid fa-chevron-right"></i>
+                <!-- <span aria-hidden="true">&raquo;</span> -->
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="section bg-dark text-white">
+      <div class="container">
+        <div class="row gx-0 gy-4 gx-sm-4">
+          <div class="col-sm-6 col-xl-5">
+            <section class="about">
+              <h4 class="text-capitalize mb-4">about me</h4>
+              <p class="text-white-50 text-sm">
+                We have tested a number of registry fix and clean utilities and
+                present our top 3 list on our site for your convenience.
+              </p>
+              <p class="text-white-50 text-sm">
+                Copyright ©2022 All rights reserved | This template is made with
+                by <a href="#" class="text-primary">Colorlib</a>
+              </p>
+            </section>
+          </div>
+          <div class="col-sm-6 col-xl-5">
+            <h4 class="text-capitalize mb-4">news letter</h4>
+            <p class="text-white-50 text-sm">
+              We have tested a number of registry fix and clean utilities and
+              present our top 3 list on our site for your convenience.
+            </p>
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control ro"
+                placeholder="Enter Email Address"
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+              />
+              <button
+                class="input-group-text bg-secondary text-white border-0"
+                id="basic-addon1"
+              >
+                <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xl-2">
+            <h4 class="text-capitalize mb-4">follow me</h4>
+            <p class="text-white-50 text-sm">let us be social</p>
+            <section class="social-links hstack gap-4">
+              <a href="#" class="transition-colors">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="transition-colors">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="transition-colors">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" class="transition-colors">
+                <i class="fab fa-behance"></i>
+              </a>
+            </section>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/all.min.js"></script>
+    <script src="assets/js/vendors/bootstrap.bundle.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
